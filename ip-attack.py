@@ -6,10 +6,9 @@
 #  Name 	:  IP Attack
 #  Platform	:  Android Termux
 #  Code		:  Python
-#  Sec.Code	:  8h4i
-#  Coded by	:  Sutariya Parixit
-#  Site 		:  bhai4you.blogspot.com
-#  Github	:  https://github.com/Bhai4You
+#  Author	:  MR15K1
+#  Team		:  Cyber Script Kiddy(*|*)
+#  Github	:  https://github.com/mhmdriski
 #
 #
 #
@@ -18,8 +17,8 @@
 # Do Not Copy Or Modify Without Permission..!!!
 #
 #	<=== WARNING ===>
-#
-#
+#   
+#    CYBER SCRIPT KIDDY┌∩┐(◣_◢)┌∩┐
 #
 #
 
@@ -41,13 +40,7 @@ time.sleep(3)
 print
 print
 print
-print "\033[1m\033[33m\n\tDeveloper : \033[32m \033[33mS\033[32mutariya \033[33mP\033[32marixit\033[0m"
-time.sleep(1)
-print "\033[1m\033[33m\n\tBlog      :  \033[32mhttp:\033[33m//\033[32mbhai\033[33m4\033[32myou.blogspot.com\033[0m"
-time.sleep(1)
-print "\033[1m\033[33m\n\tGithub    :  \033[32mhttp:\033[33m//\033[32mwww.github.com\033[33m/\033[32mBhai4You\033[0m"
-time.sleep(1)
-print "\033[1m\033[33m\n\tYoutube   : \033[32m \033[33mB\033[32mull \033[33mA\033[32mnonymous\033[0m"
+print 
 time.sleep(2)
 print
 print
@@ -55,7 +48,7 @@ print
 def ping():
 	print
 	print
-	os.system("toilet -f pagga 'Ping Attack       ' | lolcat")
+	os.system("toilet -f MR15K1 'Ping Attack       ' | lolcat")
 	time.sleep(1)
 	print
 	
@@ -65,7 +58,7 @@ def ping():
 def http():
 	print
 	print
-	os.system("toilet -f pagga 'Http Header       ' | lolcat")
+	os.system("toilet -f MR15K1 'Http Header       ' | lolcat")
 	time.sleep(1)
 	print
 	os.system("curl https://api.hackertarget.com/httpheaders/?q=" + ip)
@@ -77,7 +70,7 @@ def whois():
 	print
 	print
 
-	os.system("toilet -f pagga 'Whois       ' | lolcat")
+	os.system("toilet -f MR15K1 'Whois       ' | lolcat")
 	time.sleep(1)
 	print
 	os.system("curl http://api.hackertarget.com/whois/?q=" + ip)
@@ -87,7 +80,7 @@ def whois():
 def trace():
 	print
 	print
-	os.system("toilet -f pagga 'Traceroute       ' | lolcat")
+	os.system("toilet -f MR15K1 'Traceroute       ' | lolcat")
 	time.sleep(1)
 	print
 	os.system("curl https://api.hackertarget.com/mtr/?q=" + ip)
@@ -98,7 +91,7 @@ def trace():
 def dns():
 	print
 	print
-	os.system("toilet -f pagga 'DNS Lookup       ' | lolcat")
+	os.system("toilet -f MR15K1 'DNS Lookup       ' | lolcat")
 	time.sleep(1)
 	print
 	os.system("curl https://api.hackertarget.com/dnslookup/?q=" + ip)
